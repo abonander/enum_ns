@@ -1,0 +1,11 @@
+[package]
+
+name = "enum_ns"
+version = "0.0.1"
+authors = ["Austin Bonander <austin.bonander@gmail.com>"]
+
+[lib]
+
+name = "enum_ns"
+path = "src/lib.rs"
+plugin = true
