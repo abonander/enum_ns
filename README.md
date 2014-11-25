@@ -10,6 +10,13 @@ Apply the `#[promote_variants(export)]` for the equivalent `pub use` of the abov
 Usage
 --------
 
+Add to Cargo.toml:
+```
+[dependencies.enum_ns]
+git = "https://github.com/cybergeek94/enum_ns"
+```
+
+Crate example:
 ```rust
 #![feature(phase)]
 #![promote_variants]
